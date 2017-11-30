@@ -1,0 +1,19 @@
+<templateSet group="JUnit">
+  <template name="test" value="@Test&#10;public void $NAME$() throws Exception {&#10;    $END$&#10;}" description="Create unit test method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="should" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="@Before&#10;public void setup() throws Exception {&#10;    $END$&#10;}" description="Setup unit test class" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="obut" value="private $CLASS$ objectUnderTest;" description="Object Under Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

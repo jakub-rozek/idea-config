@@ -1,0 +1,28 @@
+<templateSet group="other">
+  <template name="logger" value="private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="Create slf4j logger" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="aw" value="@org.springframework.beans.factory.annotation.Autowired&#10;private $CLASS$ $fieldname$;" description="Autowired field" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldname" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="val" value="@org.springframework.beans.factory.annotation.Value(&quot;${$VALUE_NAME$}&quot;)&#10;private $VALUE_TYPE$ $FIELD_NAME$;" description="Spring Value" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VALUE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="statsd" value="private static final com.timgroup.statsd.StatsDClient statsDClient = cn.nhorizon.air.statsd.StatsDClientFactory.getStatsDClient(&quot;$END$&quot;);" description="Create statsd client" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
