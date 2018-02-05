@@ -30,11 +30,11 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.ja</mask>
-      <mask>*.java</mask>
       <mask>po</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>

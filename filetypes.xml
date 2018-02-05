@@ -1,55 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="siteinfo-deploy/Jenkinsfile" type="Groovy" />
-      <mapping pattern="img-server-deploy/Jenkinsfile" type="Groovy" />
-      <mapping pattern="Jenkinsfile" type="Groovy" />
-      <mapping ext="transcoder_sonar" type="Groovy" />
-      <mapping pattern="backup-masters" type="PLAIN_TEXT" />
-      <mapping pattern="jenkins" type="PLAIN_TEXT" />
-      <mapping pattern="jumpbox" type="PLAIN_TEXT" />
-      <mapping pattern="transcoder-prod" type="PLAIN_TEXT" />
-      <mapping pattern="img-server-prod" type="PLAIN_TEXT" />
-      <mapping pattern="mq-consumer" type="PLAIN_TEXT" />
-      <mapping pattern="host_vars/a13-07-01" type="PLAIN_TEXT" />
-      <mapping pattern="img-consumer" type="PLAIN_TEXT" />
-      <mapping pattern="a12-06-07" type="PLAIN_TEXT" />
-      <mapping pattern="hbase" type="PLAIN_TEXT" />
-      <mapping pattern="slaves" type="PLAIN_TEXT" />
-      <mapping pattern="src/deb/control/control" type="PLAIN_TEXT" />
-      <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern="transcode-app" type="PLAIN_TEXT" />
-      <mapping pattern="files" type="PLAIN_TEXT" />
-      <mapping pattern="img-transformer/Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="preinst" type="PLAIN_TEXT" />
-      <mapping pattern="regionservers" type="PLAIN_TEXT" />
-      <mapping pattern="img-processing-daemon/tasks/main" type="PLAIN_TEXT" />
-      <mapping pattern="host_vars/a12-06-07" type="PLAIN_TEXT" />
-      <mapping pattern="debian8-master" type="PLAIN_TEXT" />
-      <mapping pattern="a13-07-01" type="PLAIN_TEXT" />
-      <mapping pattern="hbase-transcoder-2" type="PLAIN_TEXT" />
-      <mapping pattern="debian8-slave" type="PLAIN_TEXT" />
-      <mapping pattern="images" type="PLAIN_TEXT" />
-      <mapping pattern="jrozek" type="PLAIN_TEXT" />
-      <mapping pattern="img-server" type="PLAIN_TEXT" />
-      <mapping pattern="siteinfo-app" type="PLAIN_TEXT" />
-      <mapping pattern="masters" type="PLAIN_TEXT" />
-      <mapping pattern="transcoder-cms" type="PLAIN_TEXT" />
-      <mapping pattern="img-server-cms" type="PLAIN_TEXT" />
-      <mapping pattern="img-transformer" type="PLAIN_TEXT" />
-      <mapping pattern="siteinfo" type="PLAIN_TEXT" />
-      <mapping pattern="transcoder" type="PLAIN_TEXT" />
-      <mapping pattern="img_server" type="PLAIN_TEXT" />
-      <mapping pattern="a13-04-04" type="PLAIN_TEXT" />
-      <mapping pattern="jenkins/transcoder-deploy/Jenkinsfile" type="PLAIN_TEXT" />
-      <mapping pattern="control" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
+      <mapping pattern="redis" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
-      <mapping ext="j2" type="PLAIN_TEXT" />
-      <mapping ext="gz" type="PLAIN_TEXT" />
-      <mapping ext="bck" type="PLAIN_TEXT" />
-      <mapping ext="deb" type="PLAIN_TEXT" />
-      <mapping ext="inc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
