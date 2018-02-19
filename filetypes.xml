@@ -4,6 +4,7 @@
       <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
       <mapping pattern="img-server-temp" type="PLAIN_TEXT" />
       <mapping pattern="redis" type="PLAIN_TEXT" />
+      <mapping pattern="transcoder-stg" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
