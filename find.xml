@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>pom.xm,l</mask>
@@ -31,11 +31,11 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.ja</mask>
-      <mask>*.java</mask>
       <mask>po</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
