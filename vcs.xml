@@ -6,6 +6,10 @@
           <option name="url" value="git@gites.service.osa:ad-server/ads-ansible.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.op-mobile.opera.com:socialdata/opera-news-ad-fatman.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/code" />
