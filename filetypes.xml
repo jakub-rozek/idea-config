@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="transcoder-stg" type="PLAIN_TEXT" />
       <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
+      <mapping pattern="ad-config" type="PLAIN_TEXT" />
       <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
       <mapping pattern="img-server-stg" type="PLAIN_TEXT" />
       <mapping pattern="img-server-temp" type="PLAIN_TEXT" />
