@@ -1,16 +1,17 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="transcoder-stg" type="PLAIN_TEXT" />
-      <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
+      <mapping pattern="ad-api-adapter" type="PLAIN_TEXT" />
       <mapping pattern="ad-config" type="PLAIN_TEXT" />
-      <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
       <mapping pattern="img-server-stg" type="PLAIN_TEXT" />
       <mapping pattern="img-server-temp" type="PLAIN_TEXT" />
-      <mapping pattern="redis" type="PLAIN_TEXT" />
       <mapping pattern="api" type="PLAIN_TEXT" />
-      <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
+      <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
+      <mapping pattern="transcoder-stg" type="PLAIN_TEXT" />
+      <mapping pattern="redis" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
