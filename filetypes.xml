@@ -8,6 +8,7 @@
       <mapping pattern="ad-config" type="PLAIN_TEXT" />
       <mapping pattern="img-server-stg" type="PLAIN_TEXT" />
       <mapping pattern="img-server-temp" type="PLAIN_TEXT" />
+      <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping pattern="api" type="PLAIN_TEXT" />
       <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
       <mapping pattern="ad-server" type="PLAIN_TEXT" />
