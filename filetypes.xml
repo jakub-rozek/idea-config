@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="var:*" type="JSON" />
       <mapping pattern="plc:*" type="JSON" />
+      <mapping pattern="nginx/tasks/main" type="PLAIN_TEXT" />
       <mapping pattern="ad-api-adapter" type="PLAIN_TEXT" />
       <mapping pattern="ad-config" type="PLAIN_TEXT" />
       <mapping pattern="img-server-stg" type="PLAIN_TEXT" />
