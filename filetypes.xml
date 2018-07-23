@@ -11,6 +11,7 @@
       <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping pattern="load-balancing-sg" type="PLAIN_TEXT" />
       <mapping pattern="api" type="PLAIN_TEXT" />
+      <mapping pattern="load-balancing-us" type="PLAIN_TEXT" />
       <mapping pattern="redis-sentinel" type="PLAIN_TEXT" />
       <mapping pattern="ad-server" type="PLAIN_TEXT" />
       <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
